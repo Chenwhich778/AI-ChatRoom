@@ -1,10 +1,10 @@
 # AI-ChatRoom
 
-[![GitHub stars](https://img.shields.io/github/stars/你的用户名/AI-ChatRoom?style=social)](https://github.com/你的用户名/AI-ChatRoom/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/你的用户名/AI-ChatRoom?style=social)](https://github.com/你的用户名/AI-ChatRoom/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/你的用户名/AI-ChatRoom)](https://github.com/你的用户名/AI-ChatRoom/issues)
-[![GitHub license](https://img.shields.io/github/license/你的用户名/AI-ChatRoom)](https://github.com/你的用户名/AI-ChatRoom/blob/main/LICENSE)
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=你的用户名.AI-ChatRoom)
+[![GitHub stars](https://img.shields.io/github/stars/Chenwhich778/AI-ChatRoom?style=social)](https://github.com/Chenwhich778/AI-ChatRoom/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Chenwhich778/AI-ChatRoom?style=social)](https://github.com/Chenwhich778/AI-ChatRoom/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/Chenwhich778/AI-ChatRoom)](https://github.com/Chenwhich778/AI-ChatRoom/issues)
+[![GitHub license](https://img.shields.io/github/license/Chenwhich778/AI-ChatRoom)](https://github.com/Chenwhich778/AI-ChatRoom/blob/main/LICENSE)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Chenwhich778.AI-ChatRoom)
 
 一个功能完整的多人聊天室应用，基于 Qt 6 和 TCP 网络通信开发，集成 AI 助手功能。
 
@@ -18,6 +18,10 @@
 - 🔒 **安全配置** - API 密钥本地配置，不上传到代码仓库
 
 ## 🖼️ 界面预览
+
+### 多聊天室标签页
+![多聊天室](docs/images/Renderings_1.png)
+
 
 应用采用三栏式布局：
 - **左侧**：聊天室管理面板（创建/加入聊天室）
@@ -153,5 +157,8 @@ AI-ChatRoom/
 本项目采用 MIT 协议开源。
 
 ---
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Chenwhich778/AI-ChatRoom&type=Date)](https://star-history.com/#Chenwhich778/AI-ChatRoom&Date)
 
 ⭐ 如果这个项目对你有帮助，请给个 Star！
