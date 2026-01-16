@@ -2,8 +2,6 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/Chenwhich778/AI-ChatRoom?style=social)](https://github.com/Chenwhich778/AI-ChatRoom/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Chenwhich778/AI-ChatRoom?style=social)](https://github.com/Chenwhich778/AI-ChatRoom/network/members)
-[![GitHub issues](https://img.shields.io/github/issues/Chenwhich778/AI-ChatRoom)](https://github.com/Chenwhich778/AI-ChatRoom/issues)
-[![GitHub license](https://img.shields.io/github/license/Chenwhich778/AI-ChatRoom)](https://github.com/Chenwhich778/AI-ChatRoom/blob/main/LICENSE)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Chenwhich778.AI-ChatRoom)
 
 一个功能完整的多人聊天室应用，基于 Qt 6 和 TCP 网络通信开发，集成 AI 助手功能。
