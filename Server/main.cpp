@@ -9,11 +9,11 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-    QCoreApplication::setApplicationName("DuckChatServer");
+    QCoreApplication::setApplicationName("AI-ChatRoom-Server");
     QCoreApplication::setApplicationVersion("1.0");
 
     QCommandLineParser parser;
-    parser.setApplicationDescription("DuckChat headless server");
+    parser.setApplicationDescription("AI-ChatRoom headless server");
     parser.addHelpOption();
     parser.addVersionOption();
 
@@ -31,6 +31,6 @@ int main(int argc, char *argv[])
     Server server;
     server.Connect(port);
 
-    QTextStream(stdout) << "DuckChat server listening on 0.0.0.0:" << port << "\n";
+    QTextStream(stdout) << "AI-ChatRoom server listening on 0.0.0.0:" << port << "\n";
     return a.exec();
 }

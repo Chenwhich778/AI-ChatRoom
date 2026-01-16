@@ -1,4 +1,4 @@
-# 🦆 DuckChat
+# � AI-ChatRoom
 
 一个功能完整的多人聊天室应用，基于 Qt 6 和 TCP 网络通信开发，集成 AI 助手功能。
 
@@ -39,8 +39,8 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/你的用户名/DuckChat.git
-cd DuckChat
+git clone https://github.com/你的用户名/AI-ChatRoom.git
+cd AI-ChatRoom
 ```
 
 ### 2. 编译服务器
@@ -68,13 +68,13 @@ mingw32-make
 **启动服务器：**
 ```bash
 cd Server/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/release
-.\DuckChat.exe -p 12345
+.\AI-ChatRoom.exe -p 12345
 ```
 
 **启动客户端：**
 ```bash
 cd Client/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/debug
-.\DuckChat.exe
+.\AI-ChatRoom.exe
 ```
 
 然后在登录界面输入：
@@ -99,14 +99,14 @@ cd Client/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/debug
 ### 服务器命令行选项
 
 ```bash
-.\DuckChat.exe -p <端口号>    # 指定监听端口（默认 12345）
-.\DuckChat.exe --port <端口号>
+.\AI-ChatRoom.exe -p <端口号>    # 指定监听端口（默认 12345）
+.\AI-ChatRoom.exe --port <端口号>
 ```
 
 ## 🔧 项目结构
 
 ```
-DuckChat/
+AI-ChatRoom/
 ├── Client/                 # 客户端代码
 │   ├── main.cpp
 │   ├── logindialog.cpp    # 登录对话框

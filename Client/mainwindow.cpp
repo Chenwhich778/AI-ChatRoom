@@ -55,7 +55,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::setupUI()
 {
-    setWindowTitle(QString("DuckChat - %1").arg(nickname));
+    setWindowTitle(QString("AI-ChatRoom - %1").arg(nickname));
     setMinimumSize(1000, 600);
     resize(1200, 700);
     
@@ -405,7 +405,7 @@ void MainWindow::loadApiKey()
         QFile exampleFile(configPath);
         if (exampleFile.open(QIODevice::WriteOnly | QIODevice::Text)) {
             QTextStream out(&exampleFile);
-            out << "# DuckChat API Configuration\n";
+            out << "# AI-ChatRoom API Configuration\n";
             out << "# Get your API key from: https://cloud.siliconflow.cn/\n";
             out << "# This file is ignored by git and won't be uploaded to GitHub\n\n";
             out << "SILICONFLOW_API_KEY=\n";

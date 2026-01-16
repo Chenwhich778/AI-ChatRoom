@@ -6,7 +6,7 @@ Widget::Widget(QWidget *parent)
     , ui(new Ui::Widget)
 {
     ui->setupUi(this);
-    this->setWindowTitle("DuckChat服务端");
+    this->setWindowTitle("AI-ChatRoom服务端");
     connect(&server,SIGNAL(playerConnected()),this,SLOT(playerConnected()));
     connect(&server,SIGNAL(getMessage()),this,SLOT(getMessage()));
     connect(ui->send,SIGNAL(returnPressed()),this,SLOT(on_pushButton_clicked()));

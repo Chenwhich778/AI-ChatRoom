@@ -30,7 +30,7 @@ FORMS += \
 
 RC_FILE=Images/duckicon.rc
 
-TARGET=DuckChat
+TARGET=AI-ChatRoom
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

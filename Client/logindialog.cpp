@@ -19,7 +19,7 @@ LoginDialog::LoginDialog(QWidget *parent)
 
 void LoginDialog::setupUI()
 {
-    setWindowTitle("DuckChat - 登录");
+    setWindowTitle("AI-ChatRoom - 登录");
     setFixedSize(360, 320);
     setStyleSheet(R"(
         QDialog {
