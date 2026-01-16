@@ -1,4 +1,10 @@
-# � AI-ChatRoom
+# AI-ChatRoom
+
+[![GitHub stars](https://img.shields.io/github/stars/你的用户名/AI-ChatRoom?style=social)](https://github.com/你的用户名/AI-ChatRoom/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/你的用户名/AI-ChatRoom?style=social)](https://github.com/你的用户名/AI-ChatRoom/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/你的用户名/AI-ChatRoom)](https://github.com/你的用户名/AI-ChatRoom/issues)
+[![GitHub license](https://img.shields.io/github/license/你的用户名/AI-ChatRoom)](https://github.com/你的用户名/AI-ChatRoom/blob/main/LICENSE)
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=你的用户名.AI-ChatRoom)
 
 一个功能完整的多人聊天室应用，基于 Qt 6 和 TCP 网络通信开发，集成 AI 助手功能。
 
@@ -138,13 +144,6 @@ AI-ChatRoom/
 
 详细协议格式请参考源代码。
 
-## 🔒 安全说明
-
-- ✅ API 密钥存储在本地配置文件中
-- ✅ `config/` 目录已添加到 `.gitignore`
-- ✅ 不会将敏感信息上传到 GitHub
-- ✅ 每个用户使用独立的 API 密钥
-
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
@@ -152,12 +151,6 @@ AI-ChatRoom/
 ## 📄 开源协议
 
 本项目采用 MIT 协议开源。
-
-## 🙏 致谢
-
-- Qt Framework
-- SiliconFlow AI Platform
-- 所有贡献者
 
 ---
 
